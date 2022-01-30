@@ -1,0 +1,25 @@
+# Dicionário de dados:
+
+Nome da variável | Descrição | Tipo de dados
+------------- | ----------- | -----------
+ID_Cliente | ID do cliente | categórica
+Sexo | Se o cliente é um homem ou uma mulher | categórica
+CidadaoSenior | Se o cliente é um cidadão sênior ou não (1, 0) | categórica
+Parceiro | Se o cliente tem ou não um parceiro (Sim, Não) | categórica
+Dependentes | Se o cliente tem dependentes ou não (Sim, Não) | categórica
+Fidelidade | Número de meses em que o cliente ficou na empresa | int64
+ServicoTelefone | Se o cliente possui ou não um serviço telefônico (Sim, Não) | categórica
+LinhasMultiplas | Se o cliente possui várias linhas ou não (Sim, Não, Nenhum serviço telefônico) | categórica
+ServicoInternet | Provedor de serviços de Internet do cliente (DSL, Fibra Ótica, não) | categórica
+SegurancaOnline | Se o cliente possui segurança on-line ou não (Sim, Não, Nenhum serviço de Internet) | categórica
+BackupOnline | Se o cliente possui backup on-line ou não (Sim, Não, Nenhum serviço de Internet) | categórica
+ProtecaoDispositivo | Se o cliente possui ou não proteção do dispositivo (Sim, Não, Nenhum serviço de Internet) | categórica
+SuporteTecnico | Se o cliente possui ou não suporte técnico (Sim, Não, Nenhum serviço de Internet) | categórica
+StreamingTV | Se o cliente possui ou não transmissão de TV (Sim, Não, Nenhum serviço de Internet) | categórica
+StreamingFilmes | Se o cliente possui ou não streaming de filmes (Sim, Não, Nenhum serviço de Internet) | categórica
+Contrato | O prazo do contrato do cliente (Mês a mês, Um ano, Dois anos) | categórica
+FaturaOnline | Se o cliente possui faturamento sem papel ou não (Sim, Não) | categórica
+MetodoPagamento | O método de pagamento do cliente (cheque eletrônico, cheque enviado, transferência bancária (automática), cartão de crédito (automático)) | categórica
+CobrancaMensal | O valor cobrado ao cliente mensalmente | float64
+CobrancaTotal | O valor total cobrado ao cliente | float64
+ClienteChurn | Se o cliente deixou ou não de ser cliente (Sim ou Não) | categórica
